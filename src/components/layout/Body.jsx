@@ -1,7 +1,13 @@
+import { Landing } from "../common/Landing";
+import { Mission } from "../common/Mission";
+
 export const Body = () => {
   return (
     <>
-      <div className="h-screen">Body</div>
+      <div className="">
+        <Landing/>
+        <Mission/>
+      </div>
     </>
   );
 };

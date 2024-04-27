@@ -1,10 +1,9 @@
 import airUw from "/logo6.svg";
-import { RxHamburgerMenu } from "react-icons/rx";
 
 export const Navbar = () => {
   return (
     <>
-      <div className="bg-[#000000] fixed w-screen py-3 flex justify-row opacity-90 justify-center">
+      <div className="bg-[#0F0F0F] fixed w-screen py-3 flex justify-row justify-center shadow-md">
         <img src={airUw} className="px-4"></img>
         <div className="flex ml-4 justify-center">
           <ul className="justify-row flex items-center">
