@@ -1,11 +1,11 @@
-import { Landing } from "../common/Landing";
-import { Mission } from "../common/Mission";
+import { About } from "../pages/About";
+import { Mission } from "../pages/Mission";
 
 export const Body = () => {
   return (
     <>
       <div className="">
-        <Landing/>
+        <About/>
         <Mission/>
       </div>
     </>
